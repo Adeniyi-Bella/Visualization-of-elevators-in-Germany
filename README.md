@@ -1,9 +1,7 @@
 *** Vizualizing elevator service states at german railway stations
 
 ** Problem statement
-Elevators are an essential mean to support pysically disabled persons accessing different levels in a built asset. Especially in railway stations, well-performing elevators are of high importance as they get used by a large
-
--number of passengers departuring or arriving with luggage. Due to high usage and the associated wear and tear, not all elevators are always in service and can assist travellers.
+Elevators are an essential mean to support pysically disabled persons accessing different levels in a built asset. Especially in railway stations, well-performing elevators are of high importance as they get used by a large number of passengers departuring or arriving with luggage. Due to high usage and the associated wear and tear, not all elevators are always in service and can assist travellers.
 
 ** Programming task
 
