@@ -1,6 +1,5 @@
 import requests
 import json
-import csv
 
 #For example, querying the url of active escalators 
 
@@ -19,13 +18,5 @@ response = requests.request("GET", url, headers=headers, data = payload)
 json_convert=response.json()
 data= json.dumps(json_convert, indent=2)
 
-#saving to csv file format
-file = open('Active_elv.csv', 'wb')
-writer = csv.writer(file)
-
 
 print(data)
-writer
-
-#closing the file after opening
-file.close()
