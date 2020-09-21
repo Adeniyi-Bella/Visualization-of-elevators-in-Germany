@@ -18,5 +18,4 @@ response = requests.request("GET", url, headers=headers, data = payload)
 json_convert=response.json()
 data= json.dumps(json_convert, indent=2)
 
-
 print(data)
